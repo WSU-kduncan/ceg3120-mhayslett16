@@ -50,7 +50,7 @@ Lets you switch between branches in the repo
 Use with $ git checkout [branchName]  
   
   
-##git Files and Folders  
+## git Files and Folders  
   
 .git folder  
 Contains all info necessary for projects (all info related to commits, remote repo’s address, and more)  
@@ -67,7 +67,7 @@ The file that holds a list of files and directories you want to ignore
 -Use to keep excess and secrets off github and to exclude libraries that need to be built per person  
   
   
-##GitHub  
+## GitHub  
   
 Pull Requests  
 Lets you document the changes you’ve pushed to a branch on the repo. You can discuss and review changes before merging them to the branch  
