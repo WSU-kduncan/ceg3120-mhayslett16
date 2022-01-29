@@ -22,6 +22,7 @@ the "BOT PERMISSIONS" options. This will cause Discord to generate an authorizat
 - We achieved this result by changing the bot.py code in a few ways. First, we took the formatting of the brooklyn_99_quotes example that already existed in the file and used it to set up or own form of quotes. In this case; levi_quotes. Then we added in as many Levi Ackerman quotes we wanted, keeping the format from the original example.  
 - To make the bot respond with these quotes, we change the "if message.content == 'towel!':" line and replace "towel!" with "Levi!". Change the "response = random.choice(brooklyn_99_quotes)" line by replacing 'brooklyn_99_quotes" with levi)quotes".  
 - Test your changes by running the bot.py code and typing "Levi!" into your Discord server. If you get a Levi quote; SUCCESS!  
-  
+- Here's some proof that our Levi Ackerbot worked:  
+![Levi Ackerbot in action](https://github.com/WSU-kduncan/ceg3120-mhayslett16/blob/main/Discord-Bot/bot-proof.JPG)    
   
 ## Research   
