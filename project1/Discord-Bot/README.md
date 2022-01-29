@@ -25,4 +25,7 @@ the "BOT PERMISSIONS" options. This will cause Discord to generate an authorizat
 - Here's some proof that our Levi Ackerbot worked:  
 ![Levi Ackerbot in action](https://github.com/WSU-kduncan/ceg3120-mhayslett16/blob/main/Discord-Bot/bot-proof.JPG)    
   
-## Research   
+## Research  
+  
+- One solution to allow a bot to run 24/7 would be to use hosting services like Vultr, which has a low cost of $5 a month. There are more options that are evn less expensive. These work because they host your bot on one of their servers and keep the code running continuously.  
+- Another solution is to use tools like node.js and PM2. PM2 would allow your code to continue running while your PC is on and you're signed in. Once you log off or shutdown, the bot will too.    
