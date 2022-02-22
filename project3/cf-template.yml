@@ -141,13 +141,9 @@ Resources:
           !Sub |
             #!/bin/bash -xe
             apt-get update && \
-            apt-get install -y && \
-            apt-get install git && \
-            apt-get install python3 && \
-            apt-get install pip3 && \
-            hostname Hayslett-CF && \
-              git \
-              htop \
-              sl && \
+            apt install -y git && \
+            apt install -y python3 && \
+            apt install -y python3-pip && \
+            sudo hostnamectl set-hostname Hayslett-CF && \
             echo "This is from the CF template" > /home/ubuntu/hello.txt && \
             reboot
