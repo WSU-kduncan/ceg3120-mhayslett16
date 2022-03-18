@@ -28,4 +28,5 @@
 6. Link to webpage:  
 - (It's nothing fancy, just the example webpages you provided)  184.73.54.136
 7. Reasons I suck:
-- I struggled for 30+ minutes trying to get the webpages to show up in th ereal world before making haproxy or anything. Love it.    
+- I struggled for 30+ minutes trying to get the webpages to show up in th ereal world before making haproxy or anything. Love it.  
+- For some reason the webserv2 instance didn't change the hostname like the webserv1 did. Other weird stuff happened because only one webserv instance installed apache2 even though they were configured the same way. I tried to fix it a couple times by creating new stacks but I stopped to save resources. Felt it was important to mention.   
